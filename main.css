@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #262626;
+}
+
+h1,
+h5 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.container-1 {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.container-2 {
+    border: 1px solid black;
+    height: 90px;
+    background: #ffffff;
+}
+
+.img-fluid {
+    height: inherit;
+    width: inherit;
+    padding: 6px;
+}
