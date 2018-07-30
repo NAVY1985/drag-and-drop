@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,24 +10,23 @@ body {
 
 h1,
 h5 {
-    text-align: center;
     color: #ffffff;
-    margin-top: 20px;
+    text-align: center;
 }
 
 .container-1 {
-    border: 1px solid black;
+    border: 2px solid wheat;
     height: 200px;
 }
 
 .container-2 {
+    background: #ffffff;
     border: 1px solid black;
     height: 90px;
-    background: #ffffff;
 }
 
 .img-fluid {
     height: inherit;
-    width: inherit;
     padding: 6px;
+    width: inherit;
 }
