@@ -17,6 +17,12 @@ document.addEventListener("dragend", function(event) {
     event.target.style.opacity = "1";
 });
 
+
+
+
+
+
+
 /*const drag = (e) => {
     e.dataTransfer.setData('text', e.target.id);
     e.target.style.opacity = "0.4";
